@@ -42,7 +42,7 @@ namespace Myphonebook_list
                 }
             }
         }
-        private int Tryparse()
+        public int Tryparse()
         {
             int input;
             while (int.TryParse(Console.ReadLine(), out input) == false)

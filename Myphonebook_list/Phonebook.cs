@@ -16,7 +16,7 @@ namespace Myphonebook_list
             string name = Console.ReadLine();
             Console.WriteLine("Enter the contacts number");
             string number = Console.ReadLine();
-            if (name == "" || number == "")
+            if (string.IsNullOrEmpty(name)|| string.IsNullOrEmpty(name))
             {
                 Console.WriteLine("The content can not be blank.Try again!");
                 Console.WriteLine("Enter contacts name");
